@@ -32,7 +32,7 @@
               <div class="collapse navbar-collapse justify-content-center" id="navbar1_collapse">
                 <div class="navbar-nav">
                   <a class="nav-item nav-link text-color" href="index.php">ACCUEIL</a>
-                  <a class="nav-item nav-link active text-color" href="liste_med">Prendre rendez-vous</a>
+                  <a class="nav-item nav-link active text-color" href="liste_med.php">Prendre rendez-vous</a>
                   <a class="nav-item nav-link text-color" href="#">Historique</a>
                 </div>
               </div>
