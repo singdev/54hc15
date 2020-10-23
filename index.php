@@ -9,6 +9,7 @@
             <p class="lead">Votre consultation ici</p>
           </div>
         </div>
+        <form action="resultat.php" method="post">
         <div class="row">
           <div class="col">
             <input type="text" name="rech" class="form-control">
@@ -17,6 +18,7 @@
             <button class="btn btn-custom">Rechercher le Médecin</button>
           </div>
         </div>
+        </form>
       </div>
     </section>
     <section class="pt-4">

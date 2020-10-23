@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col col-md-8">
-            <h4 class="text-dark">Choisissez votre médécin</h4>
+            <h4 class="text-dark">Resultat de la recherche</h4>
             <p class="lead"> </p>
           </div>
         </div>
@@ -25,7 +25,8 @@
       <div class="container">
         <div class="row pt-4"  key="ListingID">
           <?php
-            include "medecins.php"
+            
+            include "rech.php"
           ?>
 
           
