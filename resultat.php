@@ -15,7 +15,7 @@
             <input type="text" name="rech" class="form-control">
           </div>
           <div class="col">
-            <button class="btn btn-custom">Rechercher le Médecin</button>
+            <input type="submit" class="btn btn-custom" name="submit" value="Nouvelle recherche">
           </div>
         </div>
         </form>
@@ -25,7 +25,7 @@
       <div class="container">
         <div class="row pt-4"  key="ListingID">
           <?php
-            
+
             include "rech.php"
           ?>
 

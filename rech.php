@@ -15,9 +15,10 @@
 		12=>['PAKA','Clinique Dr. Chambrier','OUI', 'Dentiste']
 	];
 
+	$n=0;
 	foreach ($l as $i => $value) {
 		if ($l[$i][0] == $_POST['rech']){
-
+			$n++
 
 
  ?>
@@ -43,4 +44,11 @@
           </div>
 <?php 
 }}
+	if ($n==0){
+?>
+	<div class="card" text-center>
+		<p>Aucun Résultat</p>
+	</div>
+<?php		
+	}
  ?>

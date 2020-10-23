@@ -15,7 +15,7 @@
             <input type="text" name="rech" class="form-control">
           </div>
           <div class="col">
-            <button class="btn btn-custom">Rechercher le Médecin</button>
+            <input type="submit" class="btn btn-custom" name="submit" value="Rechercher le Médecin">
           </div>
         </div>
         </form>
