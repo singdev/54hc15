@@ -24,7 +24,7 @@
         <div class="row pt-4"  key="ListingID">
           <div class="col-12 col-md-6 col-lg-4 mb-4" >
             <div class="card">
-              <a href="rdv.php?ADA" class="nav-item nav-link">
+              <a href="rdv.php?nom=ADA" class="nav-item nav-link">
                 <div class="card-header bg-dark text-light text-color">Dr. ADA</div>
               </a>
               <ul class="list-group list-group-flush">
@@ -43,7 +43,7 @@
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4" >
             <div class="card">
-              <a href="rdv.php?LIKOUBO" class="nav-item nav-link">
+              <a href="rdv.php?nom=LIKOUBO" class="nav-item nav-link">
               <div class="card-header bg-dark text-light text-color">Dr. LIKOUBO</div>
               </a>
               <ul class="list-group list-group-flush">
@@ -62,7 +62,7 @@
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4" >
             <div class="card">
-              <a href="rdv.php?MOUSSAVOU" class="nav-item nav-link">
+              <a href="rdv.php?nom=MOUSSAVOU" class="nav-item nav-link">
               <div class="card-header bg-dark text-light text-color">Dr. MOUSSAVOU</div>
               </a>
               <ul class="list-group list-group-flush">
@@ -80,7 +80,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-4 text-center" >
-            <a href="liste_med" class="btn text-center">Voir plus...</a>
+            <a href="liste_med.php" class="btn text-center">Voir plus...</a>
           </div>
         </div>
       </div>

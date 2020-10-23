@@ -1,6 +1,8 @@
 <?php
+  
   include "partials/header.php";
 ?>
+
 
     <section class="pt-4">
       <div class="container">
@@ -12,7 +14,7 @@
           </div>
         </div>
         <div class="row">
-          <p class="bg-dark text-light">Médécin: Dr. ADA</p>
+          <p class="bg-dark text-light text-color">Médécin: Dr. <?= $_POST['nom'] ?></p>
         </div>
       </div>
     </section>
@@ -20,15 +22,15 @@
       <div class="container">
         <div class="row pt-4"  key="ListingID">
           
-          <label class="form-control">RDV pour le: <b>Lun 24 Dec,13-15h</b></label>
+          <label class="form-control">RDV pour le: <b><?=$_POST['date']?></b></label>
           <label class="form-control">IDENTIFIANT DU PATIENT:<b> 12400</b></label>
-          <label class="form-control">Nom du patient:<b> CUYA BORIS  </b></label>
-          <label class="form-control">Le motif: <b>CONSULATATION POUR MAUX DE TETE EXCESSIFS</b></label>
-          <label class="form-control">Type de consultation: <b>PHYSIQUE</b> </label>
-          <label class="form-control">Assurance - Numéro: <b>CNAMGS 15424 </b></label>
+          <label class="form-control">Nom du patient:<b><?=$_POST['patient']?></b></label>
+          <label class="form-control">Le motif: <b><?=$_POST['motif']?></b></label>
+          <label class="form-control">Type de consultation: <b><?=$_POST['type']?></b> </label>
+          <label class="form-control">Assurance - Numéro: <b><?=$_POST['assurance']?></b></label>
           <br/>
 
-          <label class="form-control">Montant de la consultation: <b>1000 F CFA</b></label>
+          <label class="form-control">Montant de la consultation: <b>1000 F. CFA</b></label>
 		  <div class="form-control">
 		  <label>Mode de paiement</label>
 		  </div> 		
@@ -48,7 +50,9 @@
 			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
 			</div>
 			<div class=" form-control text-center">
-			<button type="submit" class="btn btn-success">Valider</button>	
+
+			<a href="fin.php?<?=$_POST['type']?>" class="btn btn-success">VALIDER LE PAIEMENT</a>
+			<!--<button type="submit" class="btn btn-success">Valider</button>	-->
 	        </div>
         </div>
       </div>
