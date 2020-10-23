@@ -8,7 +8,7 @@
 		5=>['KENY', 'Hopital de Louis','NON','Généraliste'],
 		6=>['CUYA','Clinique Dieu Merci','OUI', 'Cardio'],
 		7=>['CHRISTOPHE', 'HOPITAL DE LA CROIX','OUI', 'Pédiatre'],
-		8=>['MAVOUNGOU', 'CHU de Libreville','N','Pédiatre'],
+		8=>['MAVOUNGOU', 'CHU de Libreville','NON','Pédiatre'],
 		9=>['EDZO','CHU OWENDO','OUI', 'Dentiste'],
 		10=>['KOUBOULOU', 'Clinique Sainte Marie','OUI', 'Gényco'],
 		11=>['NGUEMBI', 'HOPITAL DE NKEMBO','NON','Cardio'],
@@ -16,13 +16,16 @@
 	];
 
 	$n=0;
+
 	foreach ($l as $i => $value) {
-		if ($l[$i][0] == $_POST['rech']){
+		/*if ($l[$i][0] == $_POST['rech']){*/
+		$str = strtolower($l[$i][0]);
+		if (strpos(' ' . $str, strtolower($_POST['rech'])) == true){	
 			$n++
-
-
+ 
  ?>
- <div class="col-12 col-md-6 col-lg-4 mb-4" >
+ 
+ <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card">
               <a href="rdv.php?nom=<?=$l[$i][0]?>" class="nav-item nav-link">
               <div class="card-header bg-dark text-light text-color"><b>Dr. <?= $l[$i][0]?></b></div>
@@ -43,12 +46,21 @@
             </div>
           </div>
 <?php 
-}}
+	}
+}
+?>
+<br/>
+<div>
+	<b>résultats: <?= $n ?></b>
+</div>
+<?php	
 	if ($n==0){
 ?>
-	<div class="card" text-center>
-		<p>Aucun Résultat</p>
-	</div>
+	<div class="row" style="text-align: center!important">
+        <div class="col col-md-8">
+        <p class="lead"> Aucun Résultat <i class="em em-hospital" aria-role="presentation" aria-label="BIRD"></i></p>
+          </div>
+        </div>
 <?php		
 	}
- ?>
+?>

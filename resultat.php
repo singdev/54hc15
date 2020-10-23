@@ -25,7 +25,6 @@
       <div class="container">
         <div class="row pt-4"  key="ListingID">
           <?php
-
             include "rech.php"
           ?>
 
