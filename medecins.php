@@ -1,19 +1,19 @@
 <?php 
 
 	$l=[
-		1=>['ADA','Clinique Saint André','OUI', 'Gynéco'],
-		2=>['MOUSSAVOU','Hopital de NKEMBO','OUI','Cardio'],
-		3=>['EDZANG','Clinique Chez les Soeurs','OUI','Dentiste'],
-		4=>['BORIS','Clinique Saint André','OUI', 'Gényco'],
-		5=>['KENY','Hopital de Louis','OUI','Généraliste'],
-		6=>['CUYA','Clinique Dieu Merci','OUI', 'Cardio'],
-		7=>['CHRISTOPHE', 'HOPITAL DE LA CROIX','OUI', 'Pédiatre'],
-		8=>['MAVOUNGOU', 'CHU de Libreville','OUI','Pédiatre'],
-		9=>['EDZO','CHU OWENDO','OUI', 'Dentiste'],
-		10=>['KOUBOULOU', 'Clinique Sainte Marie','OUI', 'Gynéco'],
-		11=>['NGUEMBI', 'HOPITAL DE NKEMBO','OUI','Cardio'],
-		12=>['PAKA','Clinique Dr. Chambrier','OUI', 'Dentiste']
-	];
+    1=>['KWELI','Clinique Saint André','OUI', 'Gynéco'],
+    2=>['ATOME','Hopital de NKEMBO','OUI','Cardio'],
+    3=>['ZICKO','Clinique Chez les Soeurs','OUI','Dentiste'],
+    4=>['BORIS','Clinique Saint André','OUI', 'Gényco'],
+    5=>['KENY','Hopital de Louis','OUI','Généraliste'],
+    6=>['CUYA','Clinique Dieu Merci','OUI', 'Cardio'],
+    7=>['CHRISTOPHE', 'HOPITAL DE LA CROIX','OUI', 'Pédiatre'],
+    8=>['MAVOUNGOU', 'CHU de Libreville','OUI','Pédiatre'],
+    9=>['EDZO','CHU OWENDO','OUI', 'Dentiste'],
+    10=>['KOUBOULOU', 'Clinique Sainte Marie','OUI', 'Gynéco'],
+    11=>['NGUEMBI', 'HOPITAL DE NKEMBO','OUI','Cardio'],
+    12=>['PAKA','Clinique Dr. Chambrier','OUI', 'Dentiste']
+  ];
 
 	foreach ($l as $i => $value) {
 

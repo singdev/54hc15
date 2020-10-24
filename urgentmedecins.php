@@ -1,9 +1,9 @@
 <?php 
 
 	$l=[
-		1=>['ADA','Clinique Saint André','OUI', 'Gynéco'],
-		2=>['MOUSSAVOU','Hopital de NKEMBO','OUI','Cardio'],
-		3=>['EDZANG','Clinique Chez les Soeurs','OUI','Dentiste'],
+		1=>['KWELI','Clinique Saint André','OUI', 'Gynéco'],
+		2=>['ATOME','Hopital de NKEMBO','OUI','Cardio'],
+		3=>['ZICKO','Clinique Chez les Soeurs','OUI','Dentiste'],
 		4=>['BORIS','Clinique Saint André','OUI', 'Gényco'],
 		5=>['KENY','Hopital de Louis','OUI','Généraliste'],
 		6=>['CUYA','Clinique Dieu Merci','OUI', 'Cardio'],
