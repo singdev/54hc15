@@ -20,7 +20,7 @@
  ?>
  <div class="col-12 col-md-6 col-lg-4 mb-4" >
             <div class="card">
-              <a href="rdv.php?nom=<?=$l[$i][0]?>" class="nav-item nav-link">
+              <a href="urgentrdv.php?nom=<?=$l[$i][0]?>" class="nav-item nav-link">
               <div class="card-header bg-dark text-light text-color"><b>Dr. <?= $l[$i][0]?></b></div>
               </a>
               <ul class="list-group list-group-flush">

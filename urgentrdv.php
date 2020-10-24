@@ -1,5 +1,5 @@
 <?php
-  include "partials/header.php";
+  include "partials/urgentheader.php";
 ?>
     
     <section class="pt-4">
@@ -20,14 +20,9 @@
       <div class="container">
         <div class="row pt-4"  key="ListingID">
           
-        <form action="paiement.php" class="form-control text-center" method="post">
+        <form action="urgentpaiement.php" class="form-control text-center" method="post">
           <input type="text" name="nom" hidden="" value="<?= $_GET['nom'] ?>" required>
           
-          <label>Choisissez la date</label>
-          <select class="form-control" id="date" name = "date">
-            <option class="form-control" value="Lun 24 Dec,13-15h" id="date" name = "date">Lun 24 Dec,13-15h</option>
-            <option class="form-control" value="Mar 25 Dec,10-12h" id="date" name = "date">Mar 25 Dec,10-12h</option>
-          </select>
           <label>Numéro de Téléphone</label>
           <input id='tel' type="tel" name="tel" class="form-control" placeholder="+24174851472" required>          
           <label>Nom du patient</label>
@@ -38,7 +33,7 @@
           <select class="form-control" id="type"  name="type">
             <option class="form-control"id="type" name="type">VISIO</option>
             <option class="form-control"id="type" name="type">Appels Numéro vert</option>
-            <option class="form-control"id="type" name="type">Physique</option>
+            
           </select>
           <label>Assurances</label>
           <select class="form-control" id="assurance" name = "assurance">

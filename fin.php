@@ -23,14 +23,18 @@
   Votre RDV avec le médécin <b><?=$_GET['med']?></b> est prévu pour <b> <?=$_GET['date']?></b>
   <hr>
   
-
-
-
-<?php       
+<?php
+}       
+  else{
+?>
+  <hr>
+  <p>Vous allez recevoir un appel dans quelques minutes ...</p>
+  <p>Patientez SVP</p>
+<?php     
   }
 ?>
             <p class="lead">Merci, et à bientôt </p>
-
+            <p><a href="#" class="btn btn-danger">Telecharger le résumé PDF</a></p>
           </div>
         </div>
         <div class="row">
@@ -40,5 +44,5 @@
     </section>
     
     <?php
-	  include "partials/jslink.php";
-	?>
+    include "partials/jslink.php";
+  ?>

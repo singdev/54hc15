@@ -45,8 +45,11 @@
   /*utilise ce margin pour gerer la position du bouton la première valeur est la marge verticale et la seconde horizontale*/
   margin: 10px 80%;
 }
-
-
+.rouge{
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  background-color: red;
+}
 .brouge{
   background-color: red;
   padding:10px;
@@ -58,7 +61,7 @@
     <header class="bg-dark text-secondary">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col rouge">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
               <img src="Logov2.jpg" alt="logo" border-radius="10%" height="100px" width="100px">
               <a class="navbar-brand mr-auto ml-auto text-color" href="index">&nbsp &nbsp SMILE SANTE</a>
@@ -70,14 +73,13 @@
                   <a class="nav-item nav-link text-color" href="index.php">ACCUEIL</a>
                   <a class="nav-item nav-link active text-color" href="liste_med.php">Prendre rendez-vous</a>
                   <a class="nav-item nav-link text-color" href="#">Historique</a>
-                  <a class="nav-item nav-link text-color brouge urgence" href="urgentliste.php">Urgence</a>
+                  <a class="nav-item nav-link brouge text-color urgence" href="urgentliste.php">Urgence</a>
                 </div>
               </div>
 
               
               
             </nav>      </div></div></div></header>
-              <div class="urgencebtn">
-    <a href="urgentliste.php"><i class="fa fa-plus-circle" aria-hidden="true"></i>
-</a>
-</div>
+            <div class="urgencebtn">
+              <a href="urgentliste.php"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+            </div>
