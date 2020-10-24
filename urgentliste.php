@@ -9,7 +9,7 @@
             <p class="lead"> </p>
           </div>
         </div>
-        <form action="resultat.php" method="post">
+        <form action="urgentresultat.php" method="post">
         <div class="row">
           <div class="col">
             <input type="text" name="rech" class="form-control">
