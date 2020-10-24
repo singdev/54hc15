@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col col-md-8">
-            <h4 class="text-dark">Bienvenu.e.s à SMILE SANTE</h4>
+            <h4 class="text-dark">Bienvenue à SMILE SANTE</h4>
             <p class="lead">Votre consultation ici</p>
           </div>
         </div>
@@ -38,7 +38,7 @@
                   <div class="d-block font-weight-bold p-1">Disponible:</div>
                   <div class="d-block p-1" dmx-text="Beds">Oui</div>
                   <div class="d-block font-weight-bold p-1">Specialité:</div>
-                  <div class="d-block p-1" dmx-text="Baths">Génycologie</div>
+                  <div class="d-block p-1" dmx-text="Baths">Gynécologie</div>
                   
                 </div>
               </div>

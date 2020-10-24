@@ -1,7 +1,7 @@
 <?php 
 
 	$l=[
-		1=>['ADA', 'Clinique Saint André','OUI', 'Gényco'],
+		1=>['ADA', 'Clinique Saint André','OUI', 'Gynéco'],
 		2=>['MOUSSAVOU', 'Hopital de NKEMBO','OUI','Cardio'],
 		3=>['EDZANG','Clinique Chez les Soeurs','NON', 'Dentiste'],
 		4=>['BORIS', 'Clinique Saint André','OUI', 'Gényco'],
@@ -10,7 +10,7 @@
 		7=>['CHRISTOPHE', 'HOPITAL DE LA CROIX','OUI', 'Pédiatre'],
 		8=>['MAVOUNGOU', 'CHU de Libreville','N','Pédiatre'],
 		9=>['EDZO','CHU OWENDO','OUI', 'Dentiste'],
-		10=>['KOUBOULOU', 'Clinique Sainte Marie','OUI', 'Gényco'],
+		10=>['KOUBOULOU', 'Clinique Sainte Marie','OUI', 'Gynéco'],
 		11=>['NGUEMBI', 'HOPITAL DE NKEMBO','NON','Cardio'],
 		12=>['PAKA','Clinique Dr. Chambrier','OUI', 'Dentiste']
 	];

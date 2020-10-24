@@ -30,7 +30,7 @@
           <label class="form-control">Assurance - Numéro: <b><?=$_POST['assurance']?></b></label>
           <br/>
 
-          <label class="form-control">Montant de la consultation: <b>1000 F. CFA</b></label>
+          <label class="form-control">Montant de la consultation: <b>2000 F. CFA</b></label>
 		  <div class="form-control">
 		  <label>Mode de paiement</label>
 		  </div> 		
@@ -51,7 +51,7 @@
 			</div>
 			<div class=" form-control text-center">
 
-			<a href="fin.php?<?=$_POST['type']?>" class="btn btn-success">VALIDER LE PAIEMENT</a>
+			<a href="fin.php?type=<?=$_POST['type']?>&date=<?=$_POST['date']?>&med=<?=$_POST['nom']?>" class="btn btn-success">VALIDER LE PAIEMENT</a>
 			<!--<button type="submit" class="btn btn-success">Valider</button>	-->
 	        </div>
         </div>

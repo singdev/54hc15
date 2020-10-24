@@ -30,7 +30,7 @@
           <label>Nom du patient</label>
           <input id='patient' type="text" name="patient" class="form-control" placeholder="Nom du Patient" required>
           <label>Le motif</label>
-          <textarea id="motif" name = "motif" value="motif" class="form-control"  required></textarea>
+          <textarea id="motif" name = "motif" placeholder="motif" class="form-control"  required></textarea>
           <label>Type de consultation</label>
           <select class="form-control" id="type" name = "type">
             <option class="form-control"id="type" name = "type">VISIO</option>
