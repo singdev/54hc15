@@ -31,7 +31,7 @@
         <div class="row">
           <div class="col">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
-              <img src="logo v2.jpg" alt="logo" border-radius="10%" height="56px" width="56px">
+              <img src="Logov2.jpg" alt="logo" border-radius="10%" height="56px" width="56px">
               <a class="navbar-brand mr-auto ml-auto text-color" href="index">SMILE SANTE</a>
               <button class="navbar-toggler tt" type="button" data-toggle="collapse" data-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon t"></span>
